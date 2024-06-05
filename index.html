@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>My first three.js</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #000; /* Fondo negro para resaltar el título y el canvas */
+        }
+        #title {
+            position: absolute;
+            top: 20px; /* Ajusta según sea necesario */
+            width: 100%;
+            text-align: center;
+            color: white;
+            font-size: 24px; /* Ajusta el tamaño de la fuente según sea necesario */
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="title">Rectangulo con Theree</div>
+    <script type="module" src="js/three.js"></script>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
